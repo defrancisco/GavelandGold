@@ -1,7 +1,8 @@
-package com.tuusuario.gavelandgold
+package com.example.gavelandgold
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -13,6 +14,13 @@ class LoginActivity : AppCompatActivity() {
         val tvForgot = findViewById<TextView>(R.id.tvForgot)
         tvForgot.setOnClickListener {
             val intent = Intent(this, RecoverActivity::class.java)
+            startActivity(intent)
+        }
+
+
+        val btnIngresar = findViewById<Button>(R.id.btnIngresar)
+        btnIngresar.setOnClickListener {
+            val intent = Intent(this, AuctionListActivity::class.java)
             startActivity(intent)
         }
     }

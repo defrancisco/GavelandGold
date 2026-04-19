@@ -1,4 +1,4 @@
-package com.tuusuario.gavelandgold
+package com.example.gavelandgold
 
 import android.content.Intent
 import android.os.Bundle

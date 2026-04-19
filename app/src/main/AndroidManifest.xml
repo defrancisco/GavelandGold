@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GavelandGold">
         <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AuctionDetailPlushActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AuctionDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AuctionListActivity"
+            android:exported="false" />
+        <activity
             android:name=".RecoverSuccessActivity"
             android:exported="false" />
         <activity
